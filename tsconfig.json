@@ -1,0 +1,3 @@
+{
+	"extends": "@chorba/config/tsconfig.base.json"
+}
