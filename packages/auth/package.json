@@ -1,24 +1,24 @@
 {
-	"name": "@chorba/auth",
-	"type": "module",
-	"exports": {
-		".": {
-			"default": "./src/index.ts"
-		},
-		"./*": {
-			"default": "./src/*.ts"
-		}
-	},
-	"scripts": {},
-	"dependencies": {
-		"@chorba/db": "workspace:*",
-		"@chorba/env": "workspace:*",
-		"better-auth": "catalog:",
-		"dotenv": "catalog:",
-		"zod": "catalog:"
-	},
-	"devDependencies": {
-		"@chorba/config": "workspace:*",
-		"typescript": "catalog:"
-	}
+  "name": "@chorba/auth",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {},
+  "dependencies": {
+    "@chorba/db": "workspace:*",
+    "@chorba/env": "workspace:*",
+    "better-auth": "catalog:",
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@chorba/config": "workspace:*",
+    "typescript": "catalog:"
+  }
 }

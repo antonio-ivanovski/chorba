@@ -1,3 +1,3 @@
 {
-	"extends": "@chorba/config/tsconfig.base.json"
+  "extends": "@chorba/config/tsconfig.base.json"
 }
